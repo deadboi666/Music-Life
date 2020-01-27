@@ -55,14 +55,19 @@ a {
 }
 
 .advantages {
-	width: 50%;
-	display: flex;
-	text-align: center;
+	width: 90%;
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 50px;
 }
 
-.advantages__item {
-	padding-right: 10%;
-	width: 20%;
+.advantages img {
+	width: 100px;
+}
+
+.advantages div {
+	text-align: center;
 }
 
 #menu {
@@ -86,7 +91,13 @@ a {
 }
 
 .section {
-    padding: 80px 0;
+    padding: 80px;
+}
+
+h1 {
+	padding: 50px;
+	text-align: center;
+	color: green;
 }
 
 .section--map {
